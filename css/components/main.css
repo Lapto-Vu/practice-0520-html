@@ -1,0 +1,51 @@
+.main {
+  width: 100%;
+  height: 33%;
+  margin-top: 10px;
+  padding: 0px 12px;
+}
+
+.main__title {
+  width: 100%;
+  height: 18%;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: left;
+}
+
+.main__section {
+  width: 100%;
+  height: 72%;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+
+.feature-cover {
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.feature-info {
+  width: 56%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.feature-info__title {
+  width: 100%;
+  height: 18%;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: left;
+}
+
+.feature-info__artist {
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+  color: grey;
+  justify-content: left;
+}

@@ -1,0 +1,8 @@
+.stats {
+  width: 100%;
+  height: 8%;
+  background-color: var(--yellow);
+  justify-content: space-between;
+  padding: 20px 20px;
+  font-size: 22px;
+}

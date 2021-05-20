@@ -1,0 +1,40 @@
+:root {
+  --yellow: #ffd53a;
+  --shadow: rgb(235, 235, 235);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 340px;
+  height: 770px;
+  background-color: white;
+}
