@@ -1,5 +1,36 @@
-/*.nav {
+.nav {
   width: 100%;
-  height: 22%;
-  background-color: tomato;
-}*/
+  height: 24%;
+  flex-direction: column;
+  padding: 0px 12px;
+}
+
+.nav__title {
+  width: 100%;
+  height: 20%;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: left;
+}
+
+.nav__contents {
+  width: 100%;
+  height: 80%;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0px 7px 0px 3px;
+}
+
+li {
+  height: 75%;
+  width: 22%;
+}
+
+.nav-rate {
+  font-size: 1px;
+  color: var(--yellow);
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 0px 6px;
+}

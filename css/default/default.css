@@ -17,6 +17,7 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 10%;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 img:hover {
@@ -25,6 +26,10 @@ img:hover {
 
 input:focus {
   outline: none;
+}
+
+p {
+  line-height: 120%;
 }
 
 .flex {
