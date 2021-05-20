@@ -28,7 +28,7 @@ li {
 }
 
 .nav-rate {
-  font-size: 1px;
+  font-size: 10px;
   color: var(--yellow);
   justify-content: space-evenly;
   margin-top: 10px;
